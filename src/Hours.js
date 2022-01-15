@@ -11,9 +11,12 @@ export const Hours = () => {
     console.log(hourly);    
 
     const toStart = () => {
-       const x = startTime.search(":")
-       const sHour = startTime.slice(0,x);
-        console.log(sHour);
+       const x = +startTime.search(":")
+       const sHour = +startTime.slice(0,x)
+       const sHourToMin = +sHour*60;
+       const sMin = +startTime.slice(x+1)
+       const start = sHourToMin+sMin;
+       console.log(start);
     };
 
 
