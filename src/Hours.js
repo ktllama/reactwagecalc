@@ -37,11 +37,11 @@ export const Hours = () => {
     };
     const answer = calculate();
 
-
     return (
         
        <>
-  <div className='calcDiv'>
+       <span><h1>Wage Calculator</h1></span>
+            <form onSubmit={calculate} className='calcdiv'>
                 <label htmlFor="startTime">Start Time:</label>
                 <input 
                     type="time" 
@@ -49,6 +49,7 @@ export const Hours = () => {
                     id="startTime" 
                     onChange={ (e) => setStartTime(e.target.value)}
                 />
+                <br />
         
                 <label htmlFor="endTime">End Time:</label>
                 
@@ -58,7 +59,7 @@ export const Hours = () => {
                     id="endTime" 
                     onChange={ (e) => setEndTime(e.target.value)}
                 />
-        
+                <br />
                 <label htmlFor="hourly">Hourly:</label>
                 
                 <input 
@@ -67,12 +68,12 @@ export const Hours = () => {
                     id="hourly" 
                     onChange={ (e) => setHourly(e.target.value)}
                 />
-                
-                <button onClick={calculate}> submit </button>
-  </div>
-  <div className='answdiv'>
-      pay: {answer}
-  </div>
+                <br />
+            <div className='answdiv'>
+                pay: {answer} $, please
+            </div>
+                <button type="submit"> reset </button>
+            </form>
        </>
     )
 }

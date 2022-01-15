@@ -1,38 +1,55 @@
-.App {
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #3A6B35;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.calcdiv{
+  padding:1.5rem;
+  background-color:#E3B448 ;
+  text-transform: uppercase;
   text-align: center;
+  width:40%;
+  margin:auto;
+  margin-top: 1rem;
+  border: rgb(50, 52, 54) 3px solid;
+  border-radius: 20px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.answdiv{
+  padding:2rem;
+  background-color: #CBD18F;
+  text-transform: uppercase;
+  text-align: center;
+  width:50%;
+  margin:auto;
+  margin-top:1rem;
+  border: rgb(50, 52, 54) 3px solid;
+  border-radius: 20px;
+  font-size: x-large;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input{
+  margin: .3rem;
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button{
+  background-color: #3A6B35;
+  padding: .5rem;
+  color:white;
+  border-radius: 10px;
+  margin:.5rem;
+  margin-top:1.5rem;
+  font-size: large;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #E3B448 ;
+  text-align: center;
+  margin: 2rem;
 }
