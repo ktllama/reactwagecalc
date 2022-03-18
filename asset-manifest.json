@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wagecalc/static/css/main.bdfd3f98.css",
+    "main.js": "/wagecalc/static/js/main.f5ad6c05.js",
+    "index.html": "/wagecalc/index.html",
+    "main.bdfd3f98.css.map": "/wagecalc/static/css/main.bdfd3f98.css.map",
+    "main.f5ad6c05.js.map": "/wagecalc/static/js/main.f5ad6c05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdfd3f98.css",
+    "static/js/main.f5ad6c05.js"
+  ]
+}
