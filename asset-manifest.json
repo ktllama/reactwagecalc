@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/wagecalc/static/css/main.bdfd3f98.css",
-    "main.js": "/wagecalc/static/js/main.f5ad6c05.js",
-    "index.html": "/wagecalc/index.html",
-    "main.bdfd3f98.css.map": "/wagecalc/static/css/main.bdfd3f98.css.map",
-    "main.f5ad6c05.js.map": "/wagecalc/static/js/main.f5ad6c05.js.map"
+    "main.css": "/reactwagecalc/static/css/main.bdfd3f98.css",
+    "main.js": "/reactwagecalc/static/js/main.f5ad6c05.js",
+    "index.html": "/reactwagecalc/index.html",
+    "main.bdfd3f98.css.map": "/reactwagecalc/static/css/main.bdfd3f98.css.map",
+    "main.f5ad6c05.js.map": "/reactwagecalc/static/js/main.f5ad6c05.js.map"
   },
   "entrypoints": [
     "static/css/main.bdfd3f98.css",
