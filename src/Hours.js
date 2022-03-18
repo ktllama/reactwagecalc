@@ -29,13 +29,14 @@ export const Hours = () => {
        const hoursWorked = minsWorked/60;
        //console.log(hoursWorked);
 
-       const posHoursWorked = hoursWorked < 0 ? hoursWorked+24 : hoursWorked;
-       
+       const posHoursWorked = hoursWorked < 0 ? hoursWorked+24 : hoursWorked;    
        const pay = posHoursWorked*(+hourly);
        return pay;
 
     };
     const answer = calculate();
+
+    console.log(142+105+157)
 
     return (
         
